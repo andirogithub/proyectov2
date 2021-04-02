@@ -13,9 +13,15 @@
     }
   }
 
-.copy-rs {
+.row {
+    --bs-gutter-x: 0;
+}
+
+.rrss {
+    text-align: end;
     i {
         color: $paleta4;
+        margin-left: 2%;
     }
 }
 

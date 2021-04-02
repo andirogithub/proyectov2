@@ -150,8 +150,16 @@ body {
   background-color: #91c788;
   margin-top: 5%;
 }
-.copy-rs i {
+.row {
+  --bs-gutter-x: 0;
+}
+
+.rrss {
+  text-align: end;
+}
+.rrss i {
   color: #52734d;
+  margin-left: 2%;
 }
 
 @media only screen and (max-width: 760px) {
