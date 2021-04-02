@@ -1,0 +1,47 @@
+/* NOSOTROS */
+
+.nosotros-container {
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    justify-items: center;
+    align-items: center;
+    background-color: $paleta3;
+    margin-top: 5%;
+
+    h2 {
+        @extend %subtitulo
+    }
+  }
+
+.copy-rs {
+    i {
+        color: $paleta4;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .nosotros-container {
+        display: grid;
+        grid-template-areas: 
+        "img nosotros"
+        "contacto contacto";
+        grid-template-rows: auto auto;
+        grid-template-columns: 20% 80%;
+        justify-items: center;
+        align-items: center;
+        background-color: $paleta3;
+        margin-top: 5%;
+
+        img {
+            grid-area: img;
+        }
+      }
+
+    #nosotros {
+        grid-area: nosotros;
+    }
+
+    #contacto {
+        grid-area: contacto;
+    }
+}

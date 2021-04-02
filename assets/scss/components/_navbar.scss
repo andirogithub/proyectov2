@@ -1,0 +1,32 @@
+/* NAVBAR*/
+
+.navbar {
+    background-color: $paleta2;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+  }
+
+.navbar-nav {
+    a{
+        transition: all 1s;
+        &:hover {
+            color: $paleta3;
+            transform: scale(1.2);
+            }
+    }
+}
+
+.show {
+    .navbar-nav{
+        align-items: flex-end;
+    }
+}
+
+.collapsing {
+    .navbar-nav{
+        align-items: flex-end;
+    }
+}

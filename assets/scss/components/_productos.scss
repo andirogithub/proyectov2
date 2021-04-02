@@ -1,0 +1,45 @@
+/* PRODUCTOS */
+
+#productos {
+    h1{
+        @extend %subtitulo
+    }
+}
+
+.accordion {
+    margin: 1%;
+}
+
+.accordion-button {
+    font-size: x-large;
+}
+
+.accordion-item {
+    background-color: $paleta2;
+    transition: all 1s;
+    &:hover{
+        background-color: $paleta3;
+    }
+}
+
+.accordion-button:focus {
+    border-color: $paleta3;
+    box-shadow: 0 0 0 0.25rem rgb(145 199 136 / 25%);
+}
+
+.accordion-button:not(.collapsed) {
+    color: $paleta1;
+    background-color: $paleta3;
+}
+
+.card {
+    background-color: $paleta4;
+    img {
+        width: 515px;
+        height: auto;
+        transition: all 1s;
+        &:hover{
+            transform: scale(1.2);
+        }
+    }
+}

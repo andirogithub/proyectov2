@@ -1,0 +1,43 @@
+/* NOVEDADES */
+
+#novedades {
+    h2 {
+         @extend %subtitulo;
+         margin: 0;
+         padding: 3%;
+         background-color: $paleta2;
+        }
+    p {
+        margin: 3%;
+        text-align: center;
+        font-size: x-large;
+    }
+}
+
+.carousel {
+    background-color: $paleta2;
+}
+
+.carousel-item {
+        img {
+            width: 400px;
+            height: auto;
+            margin-bottom: 6%;
+         }
+}
+
+.contenedor-img-carusel, .contenedor-suscripcion {
+    display: flex;
+    justify-content: center;
+}
+
+ .modal-content {
+    background-color: $paleta1;
+    input {
+        background-color: $paleta2;
+    }
+}
+
+
+
+
